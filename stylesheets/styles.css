@@ -6,45 +6,55 @@ html, body {
   width: 100%;
   height: 100%;
   margin: 0 0 0 0px;
-}
-
-.container {
-  display: table;
-  width: 100%;
-  height: 100%;
-  border: none;
+  display: flex;
+  flex-flow: column;
 }
 
 .black {
   background-color: #373b3e;
   width: 100%;
-  height: 3em;
+  flex-basis: 2em;
+  flex-grow: 1.5;
+  flex-shrink: 0.1;
 }
 
 .pink {
   background-color: #e12885;
   width: 100%;
-  height: 3em;
+  flex-basis: 2em;
+  flex-grow: 1.5;
+  flex-shrink: 0.1;
 }
 
 .mikublue1 {
   background-color: #137a7f;
   width: 100%;
-  height: 3em;
+  flex-basis: 2em;
+  flex-grow: 1.5;
+  flex-shrink: 0.1;
 }
 
 .mikublue2 {
   background-color: #86cecb;
+  flex-basis: 2em;
+  flex-grow: 1.5;
+  flex-shrink: 0.1;
+}
+
+.centerdummy {
+  background-color: #fffeec;
   width: 100%;
-  height: 3em;
+  flex-basis: 1em;
+  flex-grow: 10;
+  flex-shrink: 0;
 }
 
 .center {
   background-color: #fffeec;
+  color: #373b3e;
   width: 100%;
-  padding: 2em 0 2em 0;
+  font-size: 2em;
+  height: auto;
   text-align: center;
   vertical-align: middle;
-  font-size: 2em;
-  color: #373b3e;
 }
